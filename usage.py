@@ -1,8 +1,7 @@
 import dash_dangerously_set_inner_html
-import dash
-import dash_html_components as html
+from dash import Dash, html
 
-app = dash.Dash('')
+app = Dash('')
 
 app.scripts.config.serve_locally = True
 
